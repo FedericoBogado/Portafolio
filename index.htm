@@ -1,0 +1,121 @@
+<!-- Establecemos el tipo de estandar del documento (HTML5) -->
+<!DOCTYPE html>
+
+<!-- Iniciamos el documento HTML5 -->
+<!-- Ponemos la pagina en el idioma que queramos -->
+<html lang="en">
+  <!-- La etiqueta head es para todo lo que no se va a ver en la pagina -->
+  <head>
+    <!-- Declaramos que set de caracteres vamos a usar -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/meta/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/meta/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/meta/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/meta/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/meta/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/meta/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/meta/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/meta/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/meta/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/meta/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/meta/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/meta/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/meta/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/meta/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Le ponemos un nombre a la pagina que aparecera arriba en la pestaña -->
+    <title>La historia de las armas</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+
+  <!-- Representa todo el contenido de nuestra pagina -->
+  <body>
+    <!-- div es un divisor de la estructura de HTML -->
+    <div class="container a">
+      <!-- header es el encabezado de la pag -->
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.htm">
+                <img src="assets/Imagenes/Yunke.svg" width="40" height="40" alt="Volver al Inicio"/>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <aside>
+          <form>
+            <input type="button" value="ㅤ" class="boton" />
+
+            <input placeholder="Buscar..." class="text"/>
+          </form>
+        </aside>
+      </header>
+
+      <main>
+        <div class="container b">
+          <!-- Un h1 representa el titulo principal de lo que estamos hablando -->
+          <h1>⚔️ La historia de las armas ⚔️</h1>
+        </div>
+
+        <section>
+          <h2>Bienvenidos</h2>
+
+          <article class="ultimo-post">
+            <h3>Última historia</h3>
+            <a href="Posts/Excalibur.htm" class="post1"> </a>
+          </article>
+        </section>
+
+        <section class="recomendado">
+          <h2>Recomendado</h2>
+          <div class="recomend">
+            
+          <article class="carrucel">
+              <h3>La Gram</h3>
+              <a href="Posts/Gram.htm" class="post2"> </a>
+            </article>
+
+            <article class="carrucel">
+              <h3>Las katanas Muramasa</h3>
+              <a href="Posts/Muramasa.htm" class="post3"> </a>
+            </article>
+
+            <article class="carrucel">
+              <h3>El martillo Mjolnir</h3>
+              <a href="Posts/Mjolnir.html" class="post4"> </a>
+            </article>
+          </div>
+
+          <article>
+            <h3>Audio</h3>
+            <!-- Etiqueta para agregar audios -->
+            <audio src="/assets/Audio/Twenty One Pilots - Fall Away Live (Bandito Tour Tampa 2019).mp3" controls loop></audio>
+          </article>
+
+          <article>
+            <h3>Video</h3>
+            <!-- Etiqueta para agregar videos -->
+            <video src="/assets/Video/twenty one pilots - Fall Away (feat. Dr. Blum of MisterWives) [Live].webm" controls></video>
+          </article>
+
+          <article>
+            <h3>Iframe</h3>
+            <!-- Etiqueta para agregar contenido de otra pagina -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/s8c_BUX9uAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </article>
+
+          </section>
+      </main>
+
+      <footer>Federico Bogado</footer>
+    </div>
+  </body>
+</html>
