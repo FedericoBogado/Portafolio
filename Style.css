@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(200, 200, 200);
+  background-color: rgb(37, 37, 37);
 }
 
 .container.a{
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background-color: rgb(66, 66, 66, 0.85);
+  background-color: rgba(14, 14, 14, 0.85);
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -91,7 +91,7 @@ h2 {
   flex-flow: column wrap;
   justify-items: flex-start;
   align-items: center;
-  background-color: rgb(122, 122, 122);
+  background-color: rgba(87, 185, 42, 0.842);
   border-radius: 4px;
   margin: 2%;
   padding: 1%;
@@ -99,7 +99,7 @@ h2 {
 }
 
 .ultimo-post:hover {
-  background-color: rgba(88, 88, 88, 0.9);
+  background-color: rgba(87, 185, 42, 0.685);
 }
 
 h3 {
