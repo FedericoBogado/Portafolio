@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(37, 37, 37);
+  background-color: #413e40;
 }
 
 .container.a{
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  background-color: rgba(14, 14, 14, 0.85);
+  background-color: #121012;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -28,7 +28,7 @@ header {
 }
 
 header:hover {
-  background-color: rgb(66, 66, 66);
+  background-color: #121012bb;
 }
 
 ul{
@@ -91,7 +91,7 @@ h2 {
   flex-flow: column wrap;
   justify-items: flex-start;
   align-items: center;
-  background-color: rgba(87, 185, 42, 0.842);
+  background-color: #009929;
   border-radius: 4px;
   margin: 2%;
   padding: 1%;
@@ -99,7 +99,7 @@ h2 {
 }
 
 .ultimo-post:hover {
-  background-color: rgba(87, 185, 42, 0.685);
+  background-color: #009929bb;
 }
 
 h3 {
@@ -129,7 +129,7 @@ h3 {
 }
 
 .recomend {
-  background-color: rgb(122, 122, 122);
+  background-color: #009929;
   border-radius: 4px;
   display: flex;
   flex-flow: row nowrap;
@@ -141,7 +141,7 @@ h3 {
 }
 
 .recomend:hover{
-  background-color: rgba(88, 88, 88, 0.9);
+  background-color: #009929bb;
 }
 
 .carrucel{
@@ -192,7 +192,7 @@ video {
 }
 
 footer {
-  background-color: rgba(22, 22, 22, 0.8);
+  background-color: #121012;
   width: 99%;
   font-style: italic;
   font-size: 1rem;
