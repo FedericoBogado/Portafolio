@@ -98,6 +98,7 @@ h2 {
   margin: 2%;
   padding: 1%;
   width: 90%;
+  padding-left: 3%;
 }
 
 .ultimo-post:hover {
@@ -112,21 +113,36 @@ h3 {
 
 .post1 {
   background-image: url(assets/Imagenes/GitHub.png);
-  background-position: center;
   background-size: cover;
-  border-radius: 2px;
   width: 35vw;
   height: 35vw;
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: #121012d2;
-  color: #413e40;
   width: 99%;
-  font-style: italic;
-  font-size: 1rem;
-  text-align: center;
   padding: 0.5%;
+}
+
+.footer_span{
+  padding-top: 0.5%;
+  padding-left: 5%;
+  font-size: 2vw;
+  justify-content: center;
+  color: #006414;
+}
+
+.footer_rrss {
+  justify-content: right;
+  display: flex;
+  flex-flow: nowrap;
+  padding-right: 5%
+}
+
+li {
+  margin: 1%;
 }
 
 @keyframes boton {
